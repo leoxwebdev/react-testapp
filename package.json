@@ -1,0 +1,9 @@
+{
+  "name": "react-testapp",
+  "version": "1.0.0",
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "express": "^4.13.3",
+    "mysql": "^2.9.0"
+  }
+}
