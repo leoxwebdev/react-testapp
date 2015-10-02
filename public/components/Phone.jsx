@@ -16,11 +16,11 @@ var Phone = React.createClass({
                 case 0:
                     newValue = "(" + enteredValue[i];
                     break;
-                case 2:
-                    newValue += enteredValue[i] + ")";
+                case 3:
+                    newValue += ")" + enteredValue[i];
                     break;
-                case 5:
-                    newValue += enteredValue[i] + "-";
+                case 6:
+                    newValue += "-" + enteredValue[i];
                     break;
                 default :
                     newValue += enteredValue[i]
